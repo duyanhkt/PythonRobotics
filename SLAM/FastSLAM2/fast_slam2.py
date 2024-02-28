@@ -10,6 +10,9 @@ import math
 
 import matplotlib.pyplot as plt
 import numpy as np
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 from utils.angle import angle_mod
 
 # Fast SLAM covariance
